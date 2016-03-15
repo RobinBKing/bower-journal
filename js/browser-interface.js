@@ -1,6 +1,6 @@
 //interface
-var Journal = require('./journal.js').Journal;
-var Entry = require('./journal.js').Entry;
+var Journal = require('../js/journal.js').Journal;
+var Entry = require('../js/journal.js').Entry;
 
 $(document).ready(function() {
   $('#journal').submit(function(event){
